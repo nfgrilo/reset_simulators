@@ -17,7 +17,7 @@ iOS=com.apple.CoreSimulator.SimRuntime.iOS
 #xcrun simctl create "iPhone 5 (10.3)"              "$iPhone-5"                               "$iOS-10-3"
 # xcrun simctl create "iPhone 5s (11.4)"             "$iPhone-5s"                              "$iOS-11-4"
 
-xcrun simctl create "iPhone SE (2nd generation) (13.4)" "$iPhone-SE--2nd-generation-"        "$iOS-13-4"
+xcrun simctl create "iPhone SE 2 (13.4)" "$iPhone-SE--2nd-generation-"        "$iOS-13-4"
 
 xcrun simctl create "iPhone 8 (11.4)"              "$iPhone-8"                               "$iOS-11-4"
 # xcrun simctl create "iPhone 8+ (11.4)"             "$iPhone-8-Plus"                          "$iOS-11-4"
