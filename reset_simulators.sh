@@ -14,8 +14,10 @@ iPad=com.apple.CoreSimulator.SimDeviceType.iPad
 iOS=com.apple.CoreSimulator.SimRuntime.iOS
 
 # xcrun simctl create "iPhone 5 (9.3)"               "$iPhone-5"                               "$iOS-9-3"
-xcrun simctl create "iPhone 5 (10.3)"              "$iPhone-5"                               "$iOS-10-3"
+#xcrun simctl create "iPhone 5 (10.3)"              "$iPhone-5"                               "$iOS-10-3"
 # xcrun simctl create "iPhone 5s (11.4)"             "$iPhone-5s"                              "$iOS-11-4"
+
+xcrun simctl create "iPhone SE (2nd generation) (13.4)" "$iPhone-SE--2nd-generation-"        "$iOS-13-4"
 
 xcrun simctl create "iPhone 8 (11.4)"              "$iPhone-8"                               "$iOS-11-4"
 # xcrun simctl create "iPhone 8+ (11.4)"             "$iPhone-8-Plus"                          "$iOS-11-4"
@@ -31,7 +33,7 @@ xcrun simctl create "iPhone X (12.4)"              "$iPhone-X"                  
 xcrun simctl create "iPhone 11 Pro (13.4)"         "$iPhone-11-Pro"                          "$iOS-13-4"
 
 # xcrun simctl create "iPad 2 (9.3)"                 "$iPad-2"                                 "$iOS-9-3"
-xcrun simctl create "iPad Pro (9.7-inch) (10.3)"   "$iPad-Pro--9-7-inch-"                    "$iOS-10-3"
+# xcrun simctl create "iPad Pro (9.7-inch) (10.3)"   "$iPad-Pro--9-7-inch-"                    "$iOS-10-3"
 xcrun simctl create "iPad Pro (10.5-inch) (11.4)"  "$iPad-Pro--10-5-inch-"                   "$iOS-11-4"
 xcrun simctl create "iPad Pro (12.9-inch) (12.4)"  "$iPad-Pro--12-9-inch---3rd-generation-"  "$iOS-12-4"
 xcrun simctl create "iPad Pro (12.9-inch) (13.4)"  "$iPad-Pro--12-9-inch---4th-generation-"  "$iOS-13-4"
