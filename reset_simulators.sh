@@ -17,14 +17,13 @@ iOS=com.apple.CoreSimulator.SimRuntime.iOS
 # > xcrun simctl list
 
 # iPhones
-xcrun simctl create "iPhone 8 (12.4)"              "$iPhone-8"                               "$iOS-12-4"
-xcrun simctl create "iPhone X (12.4)"              "$iPhone-X"                               "$iOS-12-4"
-xcrun simctl create "iPhone 11 (13.4)"             "$iPhone-11"                              "$iOS-13-4"
-xcrun simctl create "iPhone 11 Pro (14.5)"         "$iPhone-11-Pro"                          "$iOS-14-5"
-xcrun simctl create "iPhone SE 2 (14.5)"           "$iPhone-SE--2nd-generation-"             "$iOS-14-5"
+xcrun simctl create "iPhone 16 Pro Max (6.9″ 18.2)"     	"$iPhone-16-Pro-Max"                   		"$iOS-18-2"
+xcrun simctl create "iPhone 14 Plus (6.5″ 18.2)"         	"$iPhone-14-Plus"                         "$iOS-18-2"
+xcrun simctl create "iPhone 16 (6.3″ 18.2)"             	"$iPhone-16"                              "$iOS-18-2"
+xcrun simctl create "iPhone 14 (5.8″ 17.5)"             	"$iPhone-14"                              "$iOS-17-5"
+xcrun simctl create "iPhone SE 3rd gen (4.7″ 16.4)"     	"$iPhone-SE-3rd-generation"               "$iOS-16-4"
 
 # iPads
-xcrun simctl create "iPad Pro (10.5-inch) (14.5)"  "$iPad-Pro--10-5-inch-"                   "$iOS-14-5"
-xcrun simctl create "iPad Pro (11-inch) (12.4)"    "$iPad-Pro--11-inch-"                     "$iOS-12-4"
-xcrun simctl create "iPad Air (13.4)"              "$iPad-Air--4th-generation-"              "$iOS-13-4"
-xcrun simctl create "iPad Pro (12.9-inch) (14.5)"  "$iPad-Pro--12-9-inch---4th-generation-"  "$iOS-14-5"
+xcrun simctl create "iPad Pro (M4) (13″ 18.2)"						"$iPad-Pro-13-inch-M4-8GB"               	"$iOS-18-2"
+xcrun simctl create "iPad Air 5th gen (11″ 17.5)"  				"$iPad-Air-5th-generation"                "$iOS-17-5"
+xcrun simctl create "iPad mini 5th gen (9.7″ 16.4)"  			"$iPad-mini--5th-generation-"          		"$iOS-16-4"
